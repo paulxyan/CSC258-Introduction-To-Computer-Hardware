@@ -9,6 +9,10 @@
     <tool name="Probe">
       <a name="appearance" val="NewPins"/>
     </tool>
+    <tool name="Constant">
+      <a name="value" val="0xf"/>
+      <a name="width" val="4"/>
+    </tool>
   </lib>
   <lib desc="#Gates" name="1">
     <tool name="PLA">
@@ -137,6 +141,7 @@ end TCL_Generic;&#13;
     <sep/>
     <tool lib="0" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="width" val="3"/>
     </tool>
     <tool lib="0" name="Pin">
       <a name="appearance" val="NewPins"/>
